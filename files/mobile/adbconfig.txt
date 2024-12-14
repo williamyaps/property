@@ -20,7 +20,7 @@ detectDNS = false
 
 # Fallbacks are from libredns.gr, uncensoreddns.org, nixnet.services, and also adguard.com
 # adguard1 (UDP); adguard2 (UDP); uncensoreddns.org (Dot); libredns.gr (DoT); libredns.gr (DoH)
-fallbackDNS = ~[94.140.14.140]::53::UDP; ~[94.140.14.141]::53::UDP; ~[89.233.43.71]::853::DOT::unicast.censurfridns.dk; ~[116.202.176.26]::853::DOT::dot.libredns.gr; ~[116.202.176.26]::443::DOH::https://doh.libredns.gr/dns-query; [1.1.1.2]::53::UDP::1.0.0.1; [174.138.29.175]::853::DOT::doh.tiar.app; ~[94.140.15.15]::443::DOH::https://dns.adguard.com/dns-query; [doh.tiar.app]::443::DOH::https://doh.tiarap.org/dns-query; ~[45.90.30.129]::853::DOT::45.90.28.129; ~[45.90.28.0]::443::DOH::https://dns.nextdns.io/bde573; ~[107.155.21.186]::443::DOH::https://doh1.b-cdn.net/dns-query; ~[103.167.150.45]::853::DOT::dot-sg.blahdns.com; ~[dot-sg.blahdns.com]::443::DOH::https://doh-sg.blahdns.com/dns-query; ~[1.1.1.1]::853::DOT::1.0.0.1; ~[dns.brahma.world]::443::DOH::https://dns.brahma.world/dns-query; ~[adblock.dns.dnswarden.com]::443::DOH::https://dns.dnswarden.com/adblock
+fallbackDNS = ~[94.140.14.140]::53::UDP; ~[94.140.14.141]::53::UDP; ~[89.233.43.71]::853::DOT::unicast.censurfridns.dk; ~[116.202.176.26]::853::DOT::dot.libredns.gr; ~[116.202.176.26]::443::DOH::https://doh.libredns.gr/dns-query; ~[1.1.1.1]::53::UDP::1.0.0.1; ~[dot-sg.blahdns.com]::443::DOH::https://doh-sg.blahdns.com/dns-query; ~[149.248.217.117]::853::DOT::adblock.dns.dnswarden.com; ~[dot.tiar.app]::443::DOH::https://doh.tiar.app/dns-query; ~[dns.cloudflare.com]::443::DOH::https://dns.cloudflare.com/.well-known/dns-query; [84.33.16.103]::853::DOT::sg.rslvr.eu; ~[1.1.1.1]::853::DOT::one.one.one.one; ~[1.1.1.1]::853::DOT::1.0.0.1; [1.1.1.2]::53::UDP::1.0.0.2; ~[1.1.1.2]::853::DOT::1.0.0.2; ~[1.1.1.2]::853::DOT::security.clodflare-dns.com; [1.1.1.2]::443::DOH::https://cloudflare-dns.com/dns-query
 
 # passcode - can be set in order to force a passcode on android based dnsfilter before getting access
 # default is empty string
@@ -43,7 +43,7 @@ maxResolverCount = 100
 enableLocalResolver = true
 
 # localResolverTTL - TTL for locally produced DNS Response
-localResolverTTL = 40
+localResolverTTL = 60
 
 # HTTP Proxy for tunneling DNS TCP connections via Proxy
 # Note: httpProxyIP is mandatory, httpProxyHost is optional
@@ -126,7 +126,7 @@ trafficLogSize = 1048576
 trafficLogSlotCount = 2
 
 # Remote host configuration for remote control client
-client_remote_ctrl_host = 10.10.10.10
+client_remote_ctrl_host = 0.0.0.0
 client_remote_ctrl_keyphrase = Change This Default Keyphrase!
 client_remote_ctrl_port = 3333
 
@@ -138,13 +138,13 @@ server_remote_ctrl_port = -1
 debug = false
 
 # DNS request timeout in milliseconds
-dnsRequestTimeout = 1200
+dnsRequestTimeout = 15000
 
 # the size of the cache for filtered hosts
-filterHostsCacheSize = 2000
+filterHostsCacheSize = 1000
 
 # the size of the cache for allowed hosts
-allowedHostsCacheSize = 2000
+allowedHostsCacheSize = 1000
 
 # check resolved IP against filter
 checkResolvedIP = false
@@ -163,25 +163,25 @@ filterActive = true
 # filterAutoUpdateURL - the URL from were the filterHostsFile gets automatically updated.
 # You can specify different URLs seperated by ';' for an concatenated filterHostsFile.
 # Comment in case you want to disable the automatic update of the filter host file!
-filterAutoUpdateURL = https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards; https://badmojr.gitlab.io/1hosts/mini/domains.wildcards; https://badmojr.gitlab.io/1hosts/Pro/domains.wildcards; https://badmojr.gitlab.io/1hosts/Xtra/domains.wildcards; https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts; https://adaway.org/hosts.txt; https://someonewhocares.org/hosts/hosts; https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts; https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt; https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt; https://big.oisd.nl/domainswild; https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts; https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt; https://urlhaus.abuse.ch/downloads/hostfile/; https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate-onlydomains.txt
+filterAutoUpdateURL = https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards; https://badmojr.gitlab.io/1hosts/mini/domains.wildcards; https://badmojr.gitlab.io/1hosts/Pro/domains.wildcards; https://badmojr.gitlab.io/1hosts/Xtra/domains.wildcards; https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/domain.txt; https://abpvn.com/android/abpvn.txt; https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts; https://adaway.org/hosts.txt; https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt; https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt; https://someonewhocares.org/hosts/hosts; https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts; https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt; https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt; https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/malware.list; https://gitlab.com/quidsup/notrack-annoyance-blocklist/-/raw/master/annoyance.list; https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt; https://big.oisd.nl/domainswild; https://nsfw.oisd.nl/domainswild; https://small.oisd.nl/domainswild; https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts; https://raw.githubusercontent.com/tim-hub/tiny-cn-blocklist-replenish/master/common.txt; https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts; https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt; https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate-onlydomains.txt; https://urlhaus.abuse.ch/downloads/hostfile/
 
 # filterAutoUpdateURL_IDs - Sequence of short names for above URLs seperated by ";" in same
 # sequence as URLs above. When not specified, the URL host will be taken
-filterAutoUpdateURL_IDs = 1Hosts-light; 1Hosts-mini; 1Hosts-pro; 1Hosts-Xtra; ad&malware; adaway; Dan Pollock's Hosts; Developer Dan's Hosts; fakenews; gambling; Goodbye Ads; NoTracking; OISD ads & trackers; pgl.yoyo.org; porn; social; Spam404; URLhaus (malware); william
+filterAutoUpdateURL_IDs = 1Hosts-light; 1Hosts-mini; 1Hosts-pro; 1Hosts-Xtra; ABPindo; abpvn.com; ad&malware; adaway; blocklistproject ads; blocklistproject tracking; Dan Pollock's Hosts; Developer Dan's Hosts; fakenews; gambling; Goodbye Ads; no spyware tracking; no track blocklist; No track; NoTracking; oisd-big; oisd-nsfw; oisd-small; pgl.yoyo.org; porn; raw.githubusercontent.com; social; Spam404; ultimately; URLhaus (malware)
 
 # filterAutoUpdateURL_categories - Sequence of categories for above URLs seperated by ";" in same
 # sequence as URLs above. When not specified, the URL host will be taken
-filterAutoUpdateURL_categories = badmojr/1Hosts; badmojr/1Hosts; badmojr/1Hosts; badmojr/1Hosts; StevenBlack; adaway; Dan Pollock's Hosts; Developer Dan's Hosts; StevenBlack; StevenBlack; Goodbye Ads; NoTracking; OSID; pgl.yoyo.org; StevenBlack; StevenBlack; Spam404; URLhaus; saya
+filterAutoUpdateURL_categories = badmojr/1Hosts; badmojr/1Hosts; badmojr/1Hosts; badmojr/1Hosts; ABPindo; abpvn.com; StevenBlack; adaway; blocklistproject.github.io; blocklistproject.github.io; Dan Pollock's Hosts; Developer Dan's Hosts; StevenBlack; StevenBlack; Goodbye Ads; no spyware tracking; gitlab.com; No track; NoTracking; oisd; oisd; oisd; pgl.yoyo.org; StevenBlack; raw.githubusercontent.com; StevenBlack; Spam404; Hagezi; URLhaus
 
 # filterAutoUpdateURL_switchs - Sequence of boolean values (true|false) for above URLs seperated by ";"
 # in same sequence as URLs above. When not specified, the value "true" is taken.
 # Value "true" means that the URL is active and thus taken for filter download, when false the URL
 # is inactive
-filterAutoUpdateURL_switchs = false; false; false; false; true; true; false; false; false; false; true; true; true; true; false; false; true; true; true
+filterAutoUpdateURL_switchs = false; false; false; false; true; true; true; true; true; true; false; true; false; false; true; true; true; true; true; true; false; false; true; false; true; false; true; true; true
 
 # previousAutoUpdateURL - the URL from were the last filterHostsFile was automatically updated .
 # DO NOT CHANGE! - will be set internally!
-previousAutoUpdateURL = https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts; https://adaway.org/hosts.txt; https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt; https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt; https://big.oisd.nl/domainswild; https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext; https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt; https://urlhaus.abuse.ch/downloads/hostfile/; https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate-onlydomains.txt
+previousAutoUpdateURL = https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/domain.txt; https://abpvn.com/android/abpvn.txt; https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts; https://adaway.org/hosts.txt; https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt; https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt; https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt; https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt; https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt; https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/malware.list; https://gitlab.com/quidsup/notrack-annoyance-blocklist/-/raw/master/annoyance.list; https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt; https://big.oisd.nl/domainswild; https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext; https://raw.githubusercontent.com/tim-hub/tiny-cn-blocklist-replenish/master/common.txt; https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt; https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate-onlydomains.txt; https://urlhaus.abuse.ch/downloads/hostfile/
 
 # reloadIntervalDays - specifies the number of days, after the filter gets updated when configured.
 reloadIntervalDays = 7
@@ -204,7 +204,7 @@ liveLogTimeStampFormat = '<font color=''#8c8c8c''><strong>'HH:mm:ss'</strong></f
 footerLink = <font color='#ffffff'><strong><a href='https://www.zenz-solutions.de/personaldnsfilter-wp/'>WEBSITE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://www.zenz-solutions.de/donations'>DONATE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://www.zenz-solutions.de/personaldnsfilter-privacy/'>PRIVACY</a></strong></font>
 
 # Initial info PopUp
-showInitialInfoPopUp = false
+showInitialInfoPopUp = true
 initialInfoPopUpTitle = Consider your rating!
 initialInfoPopUpText = Thanks for using our free app personalDNSfilter!<br><br>Please ensure <strong>private DNS is disabled</strong> in Android network settings. When enabled, personalDNSfilter might be bypassed!<br><br>Sometimes we get bad ratings due to misunderstanding. Therefore, before rating, please check our <a href='https://www.zenz-home.com/personaldnsfilter/help/faq.php'>FAQ</a></strong>, or ask our <a href='https://telegram.me/pdnsf'>Telegram group</a></strong>.
 
