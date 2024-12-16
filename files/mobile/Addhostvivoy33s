@@ -44,13 +44,11 @@ chromesyncpasswords-pa.googleapis.com
 *.d.akamai.net
 *.b.akamai.net
 *.b.akamai.net.0.1.cn.akamaitech.net
-*.vivo.com.w.alikunlun.com
-*.vivo.com.cn
-
 *.vivoglobal.com
 
 ## Whitelisted Entries! ##
 
+!star.c10r.facebook.com
 !connect.facebook.net
 !web.facebook.com
 !graph.instagram.com
