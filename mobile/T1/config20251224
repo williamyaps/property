@@ -144,10 +144,10 @@ debug = false
 dnsRequestTimeout = 5000
 
 # The size of the LRU cache for filtered hosts, improving performance by caching information and avoiding repeated searches about blocked domains.
-filterHostsCacheSize = 1000
+filterHostsCacheSize = 5000
 
 # The size of the LRU cache for allowed hosts, improving performance by caching information and avoiding repeated searches about allowed domains.
-allowedHostsCacheSize = 1000
+allowedHostsCacheSize = 3000
 
 # check resolved IP against filter
 checkResolvedIP = false
