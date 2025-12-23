@@ -141,7 +141,7 @@ server_remote_ctrl_port = -1
 debug = false
 
 # DNS request timeout in milliseconds
-dnsRequestTimeout = 15000
+dnsRequestTimeout = 5000
 
 # The size of the LRU cache for filtered hosts, improving performance by caching information and avoiding repeated searches about blocked domains.
 filterHostsCacheSize = 1000
