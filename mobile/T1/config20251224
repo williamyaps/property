@@ -83,6 +83,8 @@ androidAppWhiteList = id.dana, com.gojek.gopay, com.tokopedia.tkpd
 # In root mode could also act as DNS filter Proxy within the local network.
 # Without root mode it could be used by openVPN for pDNSf as local filter while connected to a real VPN
 dnsProxyOnAndroid = false
+dnsEnforceTCP = true
+filterHolePunching = true
 
 # DNS proxy port used on on android version.
 dnsProxyPortAndroid = 5300
