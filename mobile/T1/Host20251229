@@ -16,10 +16,6 @@
 # unless there is a more specific rule.
 
 sample4711.justasample.com
-*.vivo.com.cn
-*.vivo.com.w.alikunlun.com
-*.vivoglobal.com
-*.doubleclick.net
 
 # In order to white list a specific host, use "!" prefix.
 # Wildcard Character "*" can be used for whitelisting.
@@ -37,19 +33,45 @@ sample4711.justasample.com
 
 ##### AUTOMATIC ENTRIES BELOW! #####
 
-## Blacklist project
-*.vip1.huaweicloudwaf.com
-qau.wesingapp.com
-ts.qq.com
-monitor.kg.qq.com
-www.voovlive.com
-business.samsungusa.com
-samsungadhub.com
-analytics.oneplus.cn
+## Blacklisted Entries! ##
+
+*.alibabadns.com
+*.aliyuncs.com
+*.aliyuncsslbintl.com
 *.amazonclix.com
+*.app-measurement.com
+*.appstore.vivo.com.cn
+*.crashlytics.com
+*.doubleclick.net
+*.iotbing.com
+*.lifeaiot.com
+*.me.gvt1.com
+*.mmstat.com
+*.prod.via.google
+*.ucweb.com
+*.vip1.huaweicloudwaf.com
+*.vivo.com.cn
+*.vivo.com.w.alikunlun.com
+*.vivoglobal.com
+*.vivoshop.com.cn
+adashx.ut.lazada.com
+analytics.oneplus.cn
+business.samsungusa.com
+cdn.ampproject.org
+clients4.google.com
+google-ohttp-relay-safebrowsing.fastly-edge.com
+https://ynuf.aliapp.org/saveWb.json?
+monitor.kg.qq.com
+optimizationguide-pa.googleapis.com
+qau.wesingapp.com
+samsungadhub.com
+sb-ssl.google.com
+signaler-pa.clients6.google.com
+track.pollo.ai
+ts.qq.com
+waa-pa.clients6.google.com
+www.voovlive.com
 
-
-## White list
 
 ## Whitelisted Entries! ##
 
@@ -57,20 +79,3 @@ analytics.oneplus.cn
 !chuncheon.dnsovertor.cc
 !b-graph.facebook.com
 !graph.facebook.com
-
-## Blacklisted Entries! ##
-
-https://ynuf.aliapp.org/saveWb.json?
-sb-ssl.google.com
-*.lifeaiot.com
-*.aliyuncs.com
-*.aliyuncsslbintl.com
-clients4.google.com
-google-ohttp-relay-safebrowsing.fastly-edge.com
-*.iotbing.com
-*.aliyuncsslbintl.com
-*.prod.via.google
-!maxcdn.bootstrapcdn.com
-!lh3.googleusercontent.com
-*.me.gvt1.com
-*.appstore.vivo.com.cn
