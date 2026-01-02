@@ -1,11 +1,83 @@
-log.tiktokv.com
-mon.tiktokv.com
-mon-boot.tiktokv.com
-v-sense.tiktokv.com
-analytics.tiktok.com
-ads.tiktok.com
-ads-va.tiktokv.com
-ads-sg.tiktokv.com
-analytics-sg.tiktokv.com
-business-api.tiktok.com
-log-va.tiktokv.com
+# Add your own additional hosts here!
+# Supports custom IP mapping, blacklist and whitelist
+
+# WARNING! You must not add huge lists here!
+# This is only for overruling the configured filter.
+
+# In order to forward to custom ip, add a ">" in front of the host,
+# followed by whitespace and mapped ip.
+# Wildcard Character "*" can be used.
+
+>router 192.168.2.1
+
+# Format for blacklist: 1 host name per line (sample below).
+# Wildcard Character "*" can be used for host blocking.
+# Host name and all sub domains will be blocked,
+# unless there is a more specific rule.
+
+sample4711.justasample.com
+
+# In order to white list a specific host, use "!" prefix.
+# Wildcard Character "*" can be used for whitelisting.
+# Host name and all sub domains will be whitelisted,
+# unless there is a more specific rule.
+
+!whitelistsample.justasample.com
+
+# PRIORITIES in case of conflicting entries
+# 0. Custom IP Mappings prioritized along the sequence in this file
+# 1. Explicit black-/ whitelist entries without wildcards
+# 2. Wildcard black-/ whitelist entries prioritized along the sequence in this file
+# 3. Downloaded blocklist
+
+
+##### AUTOMATIC ENTRIES BELOW! #####
+
+## Blacklisted Entries! ##
+
+*.d.akamai.net
+*.amp-endpoint2.com
+*.alibabadns.com
+*.aliyuncs.com
+*.aliyuncsslbintl.com
+*.amazonclix.com
+*.app-measurement.com
+*.appstore.vivo.com.cn
+*.crashlytics.com
+*.doubleclick.net
+*.iotbing.com
+*.lifeaiot.com
+*.me.gvt1.com
+*.mmstat.com
+*.prod.via.google
+*.ucweb.com
+*.vip1.huaweicloudwaf.com
+*.vivo.com.cn
+*.vivo.com.w.alikunlun.com
+*.vivoglobal.com
+*.vivoshop.com.cn
+adashx.ut.lazada.com
+analytics.oneplus.cn
+business.samsungusa.com
+cdn.ampproject.org
+clients4.google.com
+google-ohttp-relay-safebrowsing.fastly-edge.com
+https://ynuf.aliapp.org/saveWb.json?
+monitor.kg.qq.com
+optimizationguide-pa.googleapis.com
+qau.wesingapp.com
+samsungadhub.com
+sb-ssl.google.com
+signaler-pa.clients6.google.com
+track.pollo.ai
+ts.qq.com
+waa-pa.clients6.google.com
+www.voovlive.com
+
+
+## Whitelisted Entries! ##
+
+!seoul.dnsovertor.cc
+!chuncheon.dnsovertor.cc
+!b-graph.facebook.com
+!graph.facebook.com
