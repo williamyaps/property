@@ -35,45 +35,68 @@ sample4711.justasample.com
 
 ## Blacklisted Entries! ##
 
-*.d.akamai.net
-*.amp-endpoint2.com
 *.alibabadns.com
 *.aliyuncs.com
 *.aliyuncsslbintl.com
 *.amazonclix.com
+*.amp-endpoint2.com
 *.app-measurement.com
+*.appsflyersdk.com
 *.appstore.vivo.com.cn
+*.b.akamai.net
 *.crashlytics.com
+*.d.akamai.net
 *.doubleclick.net
+*.dscb.akamai.net
 *.iotbing.com
 *.lifeaiot.com
 *.me.gvt1.com
+*.mm2.akamai.net
 *.mmstat.com
+*.nlb.sgw.shopeemobile.com
 *.prod.via.google
+*.sgw.airpaymobile.com
+*.sgw.shopeemobile.com
+*.test.shopee.io
 *.ucweb.com
 *.vip1.huaweicloudwaf.com
 *.vivo.com.cn
 *.vivo.com.w.alikunlun.com
 *.vivoglobal.com
 *.vivoshop.com.cn
+*.uc.cn
+acs-m.lazada.sg
 adashx.ut.lazada.com
 analytics.oneplus.cn
+analytics.tiktok.com
+beacons.shopee.co.id
+beacons.shopee.com
+beacons.shopee.sg
 business.samsungusa.com
+bytedance.map.fastly.net
 cdn.ampproject.org
 clients4.google.com
 google-ohttp-relay-safebrowsing.fastly-edge.com
 https://ynuf.aliapp.org/saveWb.json?
+iterator.lazada.sg
+lazada-sg-2.aserver-core.lazada.com
+log.tiktokv.com
+mon.tiktokv.com
 monitor.kg.qq.com
 optimizationguide-pa.googleapis.com
+play-edge.googleapis.com
+play-fe.googleapis.com
 qau.wesingapp.com
 samsungadhub.com
 sb-ssl.google.com
+shopee-log.com
 signaler-pa.clients6.google.com
 track.pollo.ai
+track.shopee.co.id
 ts.qq.com
+v-sense.tiktokv.com
 waa-pa.clients6.google.com
 www.voovlive.com
-
 
 ## Whitelisted Entries! ##
 
