@@ -44,6 +44,7 @@ sample4711.justasample.com
 *.appsflyersdk.com
 *.appstore.vivo.com.cn
 *.b.akamai.net
+*.w16.akamai.net
 *.crashlytics.com
 *.d.akamai.net
 *.doubleclick.net
@@ -53,7 +54,6 @@ sample4711.justasample.com
 *.me.gvt1.com
 *.mm2.akamai.net
 *.mmstat.com
-*.nlb.sgw.shopeemobile.com
 *.prod.via.google
 *.sgw.airpaymobile.com
 *.sgw.shopeemobile.com
