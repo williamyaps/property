@@ -35,6 +35,8 @@ sample4711.justasample.com
 
 ## Blacklisted Entries! ##
 
+*.d.akamai.net
+*.amp-endpoint2.com
 *.alibabadns.com
 *.aliyuncs.com
 *.aliyuncsslbintl.com
