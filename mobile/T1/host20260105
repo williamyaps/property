@@ -36,6 +36,7 @@ sample4711.justasample.com
 ## Blacklisted Entries! ##
 
 *.adjust.com
+*.akadns.net
 *.alibaba.com
 *.alibabadns.com
 *.aliyuncs.com
@@ -112,7 +113,6 @@ ts.qq.com
 v-sense.tiktokv.com
 waa-pa.clients6.google.com
 www.voovlive.com
-
 
 ## Whitelisted Entries! ##
 
