@@ -51,10 +51,14 @@ sample4711.justasample.com
 *.branch.io
 *.bugsnag.com
 *.clients6.google.com
+*.cloudfunctions.net
 *.crashlytics.com
 *.d.akamai.net
 *.doubleclick.net
 *.dscb.akamai.net
+*.edgecompute.app
+*.execute-api.us-east-1.amazonaws.com
+*.fastly-edge.com
 *.iotbing.com
 *.jixie.io
 *.jixie.media
@@ -65,6 +69,7 @@ sample4711.justasample.com
 *.mmstat.com
 *.nlb.sgw.shopeemobile.com
 *.prod.via.google
+*.s3.amazonaws.com
 *.sentry.io
 *.sgw.airpaymobile.com
 *.sgw.shopeemobile.com
@@ -89,7 +94,6 @@ bytedance.map.fastly.net
 cdn.ampproject.org
 clients4.google.com
 dns.wechat.com
-google-ohttp-relay-safebrowsing.fastly-edge.com
 https://ynuf.aliapp.org/saveWb.json?
 ifs.lazada.co.id
 iterator.lazada.sg
@@ -106,13 +110,11 @@ qau.wesingapp.com
 samsungadhub.com
 sb-ssl.google.com
 shopee-log.com
-signaler-pa.clients6.google.com
 track.pollo.ai
 track.shopee.co.id
 tracker.oval.id
 ts.qq.com
 v-sense.tiktokv.com
-waa-pa.clients6.google.com
 www.voovlive.com
 
 ## Whitelisted Entries! ##
