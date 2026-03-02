@@ -86,6 +86,8 @@ dinamicx.alibabausercontent.com
 *.alikunlun.com
 *.mediatek.com
 octopus-api-id.lazada.com
+*.aliapp.org
+*.umeng.com
 *.d.akamai.net
 firebasedynamiclinks.googleapis.com
 proactivebackend-pa.googleapis.com
