@@ -80,6 +80,8 @@ rg-sg-ipv6.lazada-aserver.lazada.com
 sg-static-file.slatic.net.jshsosa.ksyunv5.com
 filebroker-cdn.lazada.co.id
 sg-test-11.slatic.net
+*.ksyunv5.com
+id-live-*.slatic.net
 g.lazcdn.com
 firebasedynamiclinks.googleapis.com
 proactivebackend-pa.googleapis.com
