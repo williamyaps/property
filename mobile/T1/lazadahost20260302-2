@@ -84,6 +84,9 @@ id-live-*.slatic.net
 g.lazcdn.com
 dinamicx.alibabausercontent.com
 *.alikunlun.com
+*.mediatek.com
+octopus-api-id.lazada.com
+*.d.akamai.net
 firebasedynamiclinks.googleapis.com
 proactivebackend-pa.googleapis.com
 digitalassetlinks.googleapis.com
