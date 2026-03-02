@@ -38,7 +38,6 @@ sample4711.justasample.com
 *.print2brain.org
 marat-rashidovich.com
 *.akadns.net
-sglong.wechat.com*.doubleverify.com
 *.dns.google
 
 ## Whitelisted Entries! ##
@@ -66,9 +65,13 @@ sglong.wechat.com*.doubleverify.com
 ## Blacklisted Entries! ##
 
 internal-feedback.lazada.com
+iterator.lazada.sg
+aip-proxy-inside-zb.alibaba-inc.com.gds.alibabadns.com
+widget.lazada.co.id.queniuak.com
 hcdnw.lzd.ovc.cdnhwcick110.com
 rg-sg.lazada.wagbridge.aserver-lazada.alibaba.com.gds.alibabadns.com
 bigfile.lazcdn.com
+sglong.wechat.com*.doubleverify.com
 https://ynuf.aliapp.org/saveWb.json?
 demo.ikpi.or.id
 *.dnse0.com
