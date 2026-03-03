@@ -69,7 +69,10 @@ sample4711.justasample.com
 *.queniuak.com
 *.slatic.net
 *.umeng.com
-*.vivoglobal.com*.print2brain.org
+*.gds.alibabadns.com
+*.vivoglobal.com
+*.print2brain.org
+*.gcdn.co
 aip-proxy-inside-zb.alibaba-inc.com.gds.alibabadns.com
 bigfile.lazcdn.com
 demo.ikpi.or.id
@@ -80,7 +83,6 @@ firebasedynamiclinks.googleapis.com
 g.lazcdn.com
 hcdnw.lzd.ovc.cdnhwcick110.com
 https://ynuf.aliapp.org/saveWb.json?
-id-live-*.slatic.net
 internal-feedback.lazada.com
 iterator.lazada.sg
 lazvideo.lazcdn.com
@@ -88,7 +90,6 @@ lazvideo.lazcdn.com.queniuak.com
 marat-rashidovich.com
 octopus-api-id.lazada.com
 proactivebackend-pa.googleapis.com
-rg-sg.lazada.wagbridge.aserver-lazada.alibaba.com.gds.alibabadns.com
 rg-sg-ipv6.lazada-aserver.lazada.com
 sglong.wechat.com*.doubleverify.com
 sg-test-11.slatic.net
