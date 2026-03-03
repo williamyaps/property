@@ -33,13 +33,6 @@ sample4711.justasample.com
 
 ##### AUTOMATIC ENTRIES BELOW! #####
 
-## Blacklisted EntrieEntries
-
-*.print2brain.org
-marat-rashidovich.com
-*.akadns.net
-*.dns.google
-
 ## Whitelisted Entries! ##
 
 !www.flirt4free.com
@@ -61,44 +54,45 @@ marat-rashidovich.com
 !chuncheon.dnsovertor.cc
 !b-graph.facebook.com
 !graph.facebook.com
-!widget.lazada.co.id
-!widget.lazada.co.id.queniuak.co
 
 ## Blacklisted Entries! ##
 
+*.akadns.net
+*.aliapp.org
+*.alikunlun.com
+*.d.akamai.net
+*.dns.google
+*.dnse0.com
+*.ekatox.com
+*.ksyunv5.com
+*.mediatek.com
+*.queniuak.com
+*.slatic.net
+*.umeng.com
+*.vivoglobal.com*.print2brain.org
+aip-proxy-inside-zb.alibaba-inc.com.gds.alibabadns.com
+bigfile.lazcdn.com
+demo.ikpi.or.id
+digitalassetlinks.googleapis.com
+dinamicx.alibabausercontent.com
+filebroker-cdn.lazada.co.id
+firebasedynamiclinks.googleapis.com
+g.lazcdn.com
+hcdnw.lzd.ovc.cdnhwcick110.com
+https://ynuf.aliapp.org/saveWb.json?
+id-live-*.slatic.net
 internal-feedback.lazada.com
 iterator.lazada.sg
-aip-proxy-inside-zb.alibaba-inc.com.gds.alibabadns.com
-widget.lazada.co.id.queniuak.com
-hcdnw.lzd.ovc.cdnhwcick110.com
-rg-sg.lazada.wagbridge.aserver-lazada.alibaba.com.gds.alibabadns.com
-bigfile.lazcdn.com
-sglong.wechat.com*.doubleverify.com
-https://ynuf.aliapp.org/saveWb.json?
+lazvideo.lazcdn.com
 lazvideo.lazcdn.com.queniuak.com
+marat-rashidovich.com
+octopus-api-id.lazada.com
+proactivebackend-pa.googleapis.com
+rg-sg.lazada.wagbridge.aserver-lazada.alibaba.com.gds.alibabadns.com
+rg-sg-ipv6.lazada-aserver.lazada.com
+sglong.wechat.com*.doubleverify.com
+sg-test-11.slatic.net
+unpkg.com
 v.lazcdn.com
 v.lazcdn.com.w.cdngslb.com
-rg-sg-ipv6.lazada-aserver.lazada.com
-filebroker-cdn.lazada.co.id
-sg-test-11.slatic.net
-*.ksyunv5.com
-id-live-*.slatic.net
-g.lazcdn.com
-dinamicx.alibabausercontent.com
-*.alikunlun.com
-*.mediatek.com
-octopus-api-id.lazada.com
-lazvideo.lazcdn.com
-*.aliapp.org
-*.slatic.net
-*.queniuak.com
-*.umeng.com
-*.d.akamai.net
-firebasedynamiclinks.googleapis.com
-proactivebackend-pa.googleapis.com
-digitalassetlinks.googleapis.com
-*.ekatox.com
-demo.ikpi.or.id
-*.dnse0.com
-*.vivoglobal.com
-unpkg.com
+widget.lazada.co.id
