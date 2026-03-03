@@ -1,1 +1,102 @@
-1
+# Add your own additional hosts here!
+# Supports custom IP mapping, blacklist and whitelist
+
+# WARNING! You must not add huge lists here!
+# This is only for overruling the configured filter.
+
+# In order to forward to custom ip, add a ">" in front of the host,
+# followed by whitespace and mapped ip.
+# Wildcard Character "*" can be used.
+
+>router 192.168.2.1
+
+# Format for blacklist: 1 host name per line (sample below).
+# Wildcard Character "*" can be used for host blocking.
+# Host name and all sub domains will be blocked,
+# unless there is a more specific rule.
+
+sample4711.justasample.com
+
+# In order to white list a specific host, use "!" prefix.
+# Wildcard Character "*" can be used for whitelisting.
+# Host name and all sub domains will be whitelisted,
+# unless there is a more specific rule.
+
+!whitelistsample.justasample.com
+
+# PRIORITIES in case of conflicting entries
+# 0. Custom IP Mappings prioritized along the sequence in this file
+# 1. Explicit black-/ whitelist entries without wildcards
+# 2. Wildcard black-/ whitelist entries prioritized along the sequence in this file
+# 3. Downloaded blocklist
+
+
+##### AUTOMATIC ENTRIES BELOW! #####
+
+## Blacklisted EntrieEntries
+
+*.print2brain.org
+marat-rashidovich.com
+*.akadns.net
+*.dns.google
+
+## Whitelisted Entries! ##
+
+!www.flirt4free.com
+!dns.brahma.world
+!graph.instagram.com
+!graph-fallback.instagram.com
+!graph-fallback.facebook.com
+!whatismyipaddress.com
+!*.dns.controld.com
+!*.doh.controld.com
+!*.freedns.controld.com
+!*.dns.brahma.world
+!*.doh.tiar.app
+!*.dot.tiar.app
+!*.doh.tiarap.org
+!*.dns.umbrella.com
+!*.doh.umbrella.com
+!seoul.dnsovertor.cc
+!chuncheon.dnsovertor.cc
+!b-graph.facebook.com
+!graph.facebook.com
+
+## Blacklisted Entries! ##
+
+internal-feedback.lazada.com
+iterator.lazada.sg
+aip-proxy-inside-zb.alibaba-inc.com.gds.alibabadns.com
+widget.lazada.co.id.queniuak.com
+hcdnw.lzd.ovc.cdnhwcick110.com
+rg-sg.lazada.wagbridge.aserver-lazada.alibaba.com.gds.alibabadns.com
+bigfile.lazcdn.com
+sglong.wechat.com*.doubleverify.com
+https://ynuf.aliapp.org/saveWb.json?
+lazvideo.lazcdn.com.queniuak.com
+v.lazcdn.com
+v.lazcdn.com.w.cdngslb.com
+rg-sg-ipv6.lazada-aserver.lazada.com
+filebroker-cdn.lazada.co.id
+sg-test-11.slatic.net
+*.ksyunv5.com
+id-live-*.slatic.net
+g.lazcdn.com
+dinamicx.alibabausercontent.com
+*.alikunlun.com
+*.mediatek.com
+octopus-api-id.lazada.com
+lazvideo.lazcdn.com
+*.aliapp.org
+*.slatic.net
+*.queniuak.com
+*.umeng.com
+*.d.akamai.net
+firebasedynamiclinks.googleapis.com
+proactivebackend-pa.googleapis.com
+digitalassetlinks.googleapis.com
+*.ekatox.com
+demo.ikpi.or.id
+*.dnse0.com
+*.vivoglobal.com
+unpkg.com
