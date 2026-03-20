@@ -73,10 +73,13 @@ verification-va.tiktokv.com
 ads-va.tiktok.com
 ads-sg.tiktok.com
 *.apple.com
+*.glance-cdn.com
 *.mzstatic.com
 ads-*.tiktok.com
 api-ad-*.tiktok.com
 *.adrta.com
+*.tiktokcdn-us.com
+d1qvpwsm130tjt.cloudfront.net
 
 ## Whitelisted Entries! ##
 
