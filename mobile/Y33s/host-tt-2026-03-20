@@ -68,6 +68,8 @@ log-va.tiktokv.com
 log-sg.tiktokv.com
 verification-va.tiktokv.com
 *.akamaized.net
+*.spbycdn.com
+*.ovscdns.net
 
 ## Whitelisted Entries! ##
 
