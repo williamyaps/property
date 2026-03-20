@@ -57,7 +57,17 @@ p16-ug-incentive-va.tiktokcdn.com
 p16-ug-incentive-va.tiktokcdn.com  
 perf.rpm.byteoversea.net
 bytedance.map.fastly.net
-*.tiktokv.com/aweme/v1/ad/  
+*.tiktokv.com/aweme/v1/ad/
+*.v.ecdnx.com
+*.tiktokcdn-eu.com
+api16-normal-c-alisg.tiktokv.com
+*.ndcpp-os.com
+*.saas.dana.id
+mon-boot.tiktokv.com
+log-va.tiktokv.com
+log-sg.tiktokv.com
+verification-va.tiktokv.com
+*.akamaized.net
 
 ## Whitelisted Entries! ##
 
