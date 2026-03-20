@@ -70,6 +70,13 @@ verification-va.tiktokv.com
 *.akamaized.net
 *.spbycdn.com
 *.ovscdns.net
+ads-va.tiktok.com
+ads-sg.tiktok.com
+*.apple.com
+*.mzstatic.com
+ads-*.tiktok.com
+api-ad-*.tiktok.com
+*.adrta.com
 
 ## Whitelisted Entries! ##
 
