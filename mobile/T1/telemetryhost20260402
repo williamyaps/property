@@ -1,0 +1,119 @@
+# Add your own additional hosts here!
+# Supports custom IP mapping, blacklist and whitelist
+
+# WARNING! You must not add huge lists here!
+# This is only for overruling the configured filter.
+
+# In order to forward to custom ip, add a ">" in front of the host,
+# followed by whitespace and mapped ip.
+# Wildcard Character "*" can be used.
+
+>router 192.168.2.1
+
+# Format for blacklist: 1 host name per line (sample below).
+# Wildcard Character "*" can be used for host blocking.
+# Host name and all sub domains will be blocked,
+# unless there is a more specific rule.
+
+sample4711.justasample.com
+
+# In order to white list a specific host, use "!" prefix.
+# Wildcard Character "*" can be used for whitelisting.
+# Host name and all sub domains will be whitelisted,
+# unless there is a more specific rule.
+
+!whitelistsample.justasample.com
+
+# PRIORITIES in case of conflicting entries
+# 0. Custom IP Mappings prioritized along the sequence in this file
+# 1. Explicit black-/ whitelist entries without wildcards
+# 2. Wildcard black-/ whitelist entries prioritized along the sequence in this file
+# 3. Downloaded blocklist
+
+
+##### AUTOMATIC ENTRIES BELOW! #####
+
+## Whitelisted Entries! ##
+
+!www.flirt4free.com
+!dns.brahma.world
+!graph.instagram.com
+!graph-fallback.instagram.com
+!graph-fallback.facebook.com
+!whatismyipaddress.com
+!*.dns.controld.com
+!*.doh.controld.com
+!*.freedns.controld.com
+!*.dns.brahma.world
+!*.doh.tiar.app
+!*.dot.tiar.app
+!*.doh.tiarap.org
+!*.dns.umbrella.com
+!*.doh.umbrella.com
+!seoul.dnsovertor.cc
+!chuncheon.dnsovertor.cc
+!b-graph.facebook.com
+!graph.facebook.com
+!web.facebook.com
+!web-fallback.facebook.com
+
+## Blacklisted Entries! ##
+
+*.akadns.net
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+msftconnecttest.com
+captive.apple.com
+crashlytics.com
+vortex.data.microsoft.com
+*.aliapp.org
+*.alikunlun.com
+*.d.akamai.net
+*.dns.google
+*.dnse0.com
+*.ekatox.com
+*.ksyunv5.com
+*.mediatek.com
+*.queniuak.com
+*.slatic.net
+*.umeng.com
+*.gds.alibabadns.com
+*.vivoglobal.com
+*.print2brain.org
+*.gcdn.co
+*.ut.lazada.com
+*.alipay.com
+*.alipayobjects.com
+*.danuoyi.tbcache.com
+*.aliyunwaf4.com
+*.alibabacloud.com
+*.cdngslb.com
+*.tbcache.com
+*.danuoyi.alicdn.com
+acs-m.lazada.sg
+acs-m.lazada.co.id
+sdk.marmot-cloud.com
+aip-proxy-inside-zb.alibaba-inc.com.gds.alibabadns.com
+bigfile.lazcdn.com
+demo.ikpi.or.id
+digitalassetlinks.googleapis.com
+dinamicx.alibabausercontent.com
+filebroker-cdn.lazada.co.id
+firebasedynamiclinks.googleapis.com
+g.lazcdn.com
+hcdnw.lzd.ovc.cdnhwcick110.com
+https://ynuf.aliapp.org/saveWb.json?
+internal-feedback.lazada.com
+iterator.lazada.sg
+lazvideo.lazcdn.com
+lazvideo.lazcdn.com.queniuak.com
+marat-rashidovich.com
+octopus-api-id.lazada.com
+proactivebackend-pa.googleapis.com
+rg-sg-ipv6.lazada-aserver.lazada.com
+sglong.wechat.com*.doubleverify.com
+sg-test-11.slatic.net
+unpkg.com
+v.lazcdn.com
+v.lazcdn.com.w.cdngslb.com
+widget.lazada.co.id
