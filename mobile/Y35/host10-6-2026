@@ -1,0 +1,111 @@
+# Add your own additional hosts here!
+# Supports blacklist, whitelist and map to custom IP
+
+# WARNING! You must not add huge lists here!
+# This is only for overruling the configured filter.
+
+# Format for blacklist: 1 host name per line (sample below).
+# Wildcard Character "*" can be used for host blocking.
+# Host name and all sub domains will be blocked,
+# unless there is a more specific rule.
+
+sample4711.justasample.com
+sample4712.justasample.com
+
+# In order to white list a specific host, use "!" prefix.
+# Wildcard Character "*" can be used for whitelisting.
+# Host name and all sub domains will be whitelisted,
+# unless there is a more specific rule.
+
+!whitelistsample.justasample.com
+
+# PRIORITIES in case of conflicting entries
+# 1. Explicit entries without wildcards
+# 2. Wildcard entries prioritized along the sequence in this file
+# 3. Downloaded blocklist
+
+# In order to forward to custom ip add a ">" in front of the host,
+# followed by whitespace and mapped IP.
+
+>router.home 192.168.2.1
+
+
+##### AUTOMATIC ENTRIES BELOW! #####
+
+## Blacklisted Entries! ##
+
+a1790.dscb.akamai.net
+p16-oec-va.ibyteimg.com
+filerep-replica.ff.avast.com
+clients.l.google.com
+clients4.google.com
+xga-serving-pa.googleapis.com
+ap-south-1.linodeobjects.com.akadns.net
+ap-south-1.linodeobjects.com
+save-pa.googleapis.com
+remote-config.gslb.sgw.shopeemobile.com
+firebaseremoteconfig.googleapis.com
+firebaseremoteconfigrealtime.googleapis.com
+*.iotbing.com
+*.aliyuncsslbintl.com
+webpermissionpredictions.googleapis.com
+*.vivo.com.eo.dnse0.com
+*.vivo.com
+http://vibeaconstr.onezapp.com:8080/analytics/upload
+ak-hk.stream.music.joox.com
+update.googleapis.com
+mzjy6puk.ovslegodl.sched.ovscdns.com
+wesingapp.com
+*.ias.tencent-cloud.net
+*.qq.com
+*.kg.qq.com
+*.cdn-go.cn
+*.app.joox.com
+*.twns.qq.com
+*.wesingcdn.com
+*.wesingapp.com
+*.gtimg.cn
+*.sgcc.cn
+*.tcdn.qq.com
+*.snssdk.com
+*.ovslegodljoox.sched.ovscdns.com
+szmg.qq.com
+*.cdn-go.lmtlego.sched.apdcdn.com
+*.voovlive.com
+*.api.unipay.qq.com
+*.vivo.com.w.alikunlun.com
+*.vivo.com.cn
+tiasdk.app.wechat.com
+chromesyncpasswords-pa.googleapis.com
+*.birdgesdk.com
+*.dscf.akamaiedge.net
+!*.b.akamai.net
+*.b.akamai.net.0.1.cn.akamaitech.net
+*.vivoglobal.com
+*.doubleclick.net
+*.doubleverify.com
+*.dns.google
+
+## Whitelisted Entries! ##
+
+!dns.brahma.world
+!graph-fallback.facebook.com
+!graph.instagram.com
+!apid1pf89.sgw.airpaymobile.com
+!*.dns.controld.com
+!*.doh.controld.com
+!*.freedns.controld.com
+!*.dns.brahma.world
+!*.doh.tiar.app
+!*.dot.tiar.app
+!*.doh.tiarap.org
+!*.dns.umbrella.com
+!*.doh.umbrella.com
+!seoul.dnsovertor.cc
+!chuncheon.dnsovertor.cc
+!browser-intake-datadoghq.com
+!common.kg.qq.com
+!star.c10r.facebook.com
+!www-dnsperf-com.netlify.com
+!b-graph.facebook.com
+!graph.facebook.com
